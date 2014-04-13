@@ -1,0 +1,95 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+
+/* Left & Right alignment */
+
+.left {float:left;}
+.right {float:right; }
+.wrapper {width:100%;overflow:hidden}
+.center {text-align:center}
+body {height: 100%; background:#001527;border:0;font:14px Arial, Helvetica, sans-serif;color:#363636;line-height:20px}
+.css3{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);behavior:url(js/PIE.htc);position:relative}
+.main {margin:0 auto;width:1000px;position:relative}
+.body1 {background:url(/assets/images/bg_top_repeat.gif) top repeat-x #001527}
+.body2 {background:url(/assets/images/bg_top2.1.jpg) top center no-repeat;height:120px}
+.body3 {background:url(/assets/images/bg_top3_repeat.jpg) top center repeat-x; margin-left: -120px}
+.body4 {background:url(/assets/images/bg_top3.jpg) top center no-repeat;padding:28px 28px}
+.body5 {background:#eeeeee; margin-top: -17px}
+.body6 {background:#eeeeee;}
+.body7 {padding: 20px; margin-left: 160px}
+.body8 {background:url(/assets/images/bg_bot_repeat.jpg) top repeat-x; margin-top: 0px;}
+.body9 {background:url(/assets/images/bg_bot.jpg) top center no-repeat; height:200px}
+
+/* main layout */
+
+a {color:#006abb;text-decoration:none;outline:none}
+a:hover {text-decoration:none}
+h1 {float:left;padding:21px 0 0 24px}
+h2 {font-size:30px;color:#182125;line-height:1.2em;padding:26px 0 14px 0;letter-spacing:-1px}
+h2 span {color:#006abb}
+h3 {font-size:20px;color:#fff;line-height:1.2em;padding:24px 0 40px 0}
+p {padding-bottom:20px}
+
+
+/* header */
+
+header{}
+#logo {color: black;}
+.logo-c {width:550px; height:110px; float:left; margin-top: 10px; margin-left: -20px}
+header .right{padding-right:59px;width:380px}
+
+#top_nav {margin-bottom:30px; width:380px;}
+#top_nav li {float:right;padding:0 7px}
+#top_nav li a {font-size:12px;color:#fff;text-transform:uppercase;text-decoration:none}
+#top_nav li a:hover {text-decoration:underline}
+
+#menu {width: 500px; height:90px; margin-left:95px; float:left; margin-top: 15px}
+#menu li {float:left; width:44px; height:44px; padding: 0 30px;}
+#menu li a {float: left; display: block;  }
+#menu li a:hover, #menu #menu_active a{}
+.nav1 {width:33px; height:34px; background:url(/assets/images/menu1.gif)no-repeat;}
+.nav2 {width:33px; height:34px; background:url(/assets/images/menu2.gif)no-repeat;}
+.nav3 {width:33px; height:34px;background:url(/assets/images/menu4.1.gif) no-repeat;}
+.nav4 {width:33px; height:34px; background:url(/assets/images/menu3.1.gif) no-repeat;}
+.nav5 {width:33px; height:34px; background:url(/assets/images/menu5.gif)no-repeat;}
+.nav1:hover, .nav1#active { background:url(/assets/images/menu1_active.gif) no-repeat; width:33px; height:34px;}
+.nav2:hover, .nav2#active {width:33px; height:34px; background:url(/assets/images/menu2_active.gif) no-repeat;}
+.nav3:hover, .nav3#active {width:33px; height:34px; background:url(/assets/images/menu4_active.gif) no-repeat;}
+.nav4:hover, .nav4#active {width:33px; height:34px; background:url(/assets/images/menu3_active.gif) no-repeat;}
+.nav5:hover, .nav5#active {width:33px; height:34px; background:url(/assets/images/menu5_active.gif) no-repeat;}
+
+
+/* content */
+img#solar {float: left; margin-top: 10px;}
+img#battery {float: left; margin: 10px 2px 0 -10px;}
+img#systemmode {width:35px; height: 35px; margin: 10px 4px 0 -10px; float: left}
+#content {width:100%;overflow:hidden;padding:33px 0 48px 53px}
+.body4 figure {padding-left:58px}
+.body4 h2 {padding:0 0 14px 0;margin-top:-1px;letter-spacing:-1px;float:left;width:820px}
+.pad1 {padding:0 5px}
+.box1 {background:url(/assets/images/box_repeat.gif) center repeat-y} 
+.box1_bot {background:url(/assets/images/box_bot.gif) center bottom no-repeat}
+.box1_top {background:url(/assets/images/box_top.jpg) center top no-repeat;width:100%}
+.box1 .pad {padding:0 26px;padding-bottom:23px}
+.box1 h2 {font-size:24px;line-height:1.2em;color:#fff;padding:10px 0 22px 0}
+.box1 h2.center {font-size:26px;line-height:1.2em;padding:10px 0 26px 0;letter-spacing:-1px}
+.col1{padding-left: 10px; margin-left: 20px}
+
+/* footer */
+
+footer {padding:0 0 0 60px;color:#fff}
+footer a {color:#a2b8c8}
+footer p {padding-bottom:15px}
+.col_1 {width:635px;float:left}
+.col_2 {width:250px;float:left;padding-left:8px}
+.below {float:left; margin-top: 10px}
+#footer_logo {display:block;margin:15px 0 36px 64px;background:url(/assets/images/footer_logo.gif) no-repeat;width:98px;height:39px;text-indent:-9999px}
+.list1 li {line-height:25px}
+.list1 li a {text-decoration:none;padding-left:14px;background:url(/assets/images/marker_2.gif) 0 5px no-repeat}
+.list1 li a:hover {text-decoration:underline}
+
+/*Solar Panel */
+
+.button-div{float: left; margin-right: 50px}
+button {margin: 20px}
